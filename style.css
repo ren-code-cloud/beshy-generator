@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #2B2730;
+  border: 1px solid #333;
+  color: #fff;
+}
+h3 {
+  margin: 3.5rem 0 .5rem;
+}
+.container {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 250px 80px;
+  column-gap: 8px;
+}
+.container .inputBesh {
+  padding: 10px 12px;
+  outline: none;
+  border-radius: 1rem;
+  color: #000;
+}
+.container .__btnBesh {
+  border: none;
+  background: limegreen;
+  border-radius: 1rem;
+}
+.beshy {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700;
+}
+.footer {
+  position: absolute;
+  bottom: 20%;
+}
